@@ -1,6 +1,35 @@
-// Photo by Jeremy Goldberg on Unsplash
-
-
 body {
-	background-color: pink;
+	background-image: url("images/jeremie-cremer-4419.jpg");
 }
+
+
+
+.container {
+	width: 70%;
+	margin: 10px auto;
+	overflow: auto;
+	//background-color: blue;
+}
+
+
+h1 {
+	background-color: pink;
+	color: #555;
+	font-family: "Lato", "Arial", sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+blockquote {
+	font-family: "Lato", "Arial", sans-serif;
+}
+
+
+
+img {
+	width: 100px;
+	height: auto;
+	border-radius: 20%;
+}
+
