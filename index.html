@@ -1,12 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Simple One Page 3</title>
+	<title>Travelscape Adventures</title>
+	<link href="styles/reset.css" rel="styleshee">
 	<link href="styles/main.css" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 	<body>
-		
+		<div class="container">
+			<header>
+				<h1>Travelscape Adventures</h1>
+				<h4></h4>
+			</header>
+			<section class="leah-quote">
+				<blockquote>I am just a woman who loves helping others and traveling. Often I wondered how could I combine the two? Well, I believe I have found a way to do both through my home-based travel business.
+				<p></p>
+				My prayer is as you visit our Travel Site, it will excite, incite and invite you to take your next flight with TRAVELSCAPE Adventures!!!<cite><img src="styles/images/leeJen.jpg">Leah Jennings<br>(773) 420-6832</cite>
+				</blockquote>
+			</section>
+
+			<section>
+				<h2>Tell me more about your travel plans</h2>
+				<form id="content-header">
+					<div>
+						<label>Name*</label>
+						<input type="text">
+					</div>
+					
+					<div>
+						<label>Email*</label>
+						<input type="email">
+					</div>
+
+					<div>
+						<label>Phone*</label>
+						<input type="tel">
+					</div>
+					<label>Are you interested in domestic or international travel?</label>
+					<input type="checkbox" name="domestic" value="Domestic"> Domestic<br>
+ 					<input type="checkbox" name="international" value="International"> International
+
+ 					<label>Approximate travel date?</label>
+ 					<input type="date" name="travel date">
+						
+					<label>Comments:</label> 
+					<textarea></textarea> 
+
+
+					<input type="submit" value="Submit">
+				</form>
+			</section>
+		</div><!--end of div container-->
+
 
 		<script src="scripts/app.js"></script>
 	</body>
 </html>
+
