@@ -1,11 +1,13 @@
 body {
 	background-image: url("images/jeremie-cremer-4419.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.2)),url("images/eva-darron-214170.jpg");
+	//background-image: url("images/jeremy-goldberg-38462.jpg");
+	//background-image: url("images/john-matychuk-284377.jpg");
 }
 
 
-
 .container {
-	width: 70%;
+	width: 50%;
 	margin: 10px auto;
 	overflow: auto;
 	//background-color: blue;
@@ -13,23 +15,114 @@ body {
 
 
 h1 {
-	background-color: pink;
 	color: #555;
 	font-family: "Lato", "Arial", sans-serif;
-	font-weight: 300;
+	font-weight: 100;
 	font-size: 20px;
 	text-transform: uppercase;
 }
 
-blockquote {
-	font-family: "Lato", "Arial", sans-serif;
+
+.header-title {
+	font-size: 300%;
+	color: #fff;
+	text-align: center;
 }
 
+.header-subtitle {
+	color: #fff;
+	font-family: "Lato", "Arial", sans-serif;
+	font-weight: 100;
+	font-size: 120%;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+/*================*/
+/*=====FORM=======*/
+/*================*/
+form {
+	width: 100%;
+	padding: 20px;
+	//margin: 0 auto;
+	//background-color: green;
+}
+
+form div {
+	float: left;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=date] {
+	width: 50%;
+	padding: 5px;
+	border-radius: 3px;
+	background-color: #fad3c4;
+}
+
+input[type=submit] {
+	width: 15%;
+	background-color: #fad3c4;
+	border-radius: 25%;
+}
+
+select,
+textarea {
+	width: 20%;
+	padding: 5px;
+	border-radius: 3px;
+	background-color: #fad3c4;
+}
+
+
+label {
+	font-family: "Lato", "Arial", sans-serif;
+	font-weight: 100;
+	color: #fff;
+	padding: 10px;
+	display: inline-block;
+}
+
+
+
+blockquote {
+	width: 100%;
+	//padding: 10px;
+	margin: 10px;
+	position: relative;
+	font-family: "Lato", "Arial", sans-serif;
+	font-weight: 100;
+	color: #fff;
+	text-align: right;
+	background-color: rgba(234,84,25,0.2);
+	overflow: hidden;
+	//border-radius: 10%;
+	//background-color: green;
+}
+
+ blockquote:before {
+ 	content:"\201C";
+ 	font-size: 500%;
+ 	display: block;
+ 	position: absolute;
+ 	top: -15px;
+ 	left: 25px;
+ }
+
+
+
+.contact-info {
+	text-align: right;
+	padding-right: 50px;
+}
 
 
 img {
-	width: 100px;
+	width: 50px;
 	height: auto;
-	border-radius: 20%;
+	border-radius: 50%;
 }
+
 
